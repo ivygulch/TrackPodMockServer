@@ -5,6 +5,7 @@ var events = require('./routes/events')
 var bodyParser = require('body-parser');
 
 app.use(bodyParser());
+app.disable('etag');
 
 app.post('/authenticate', authentication.authenticate);
 app.get('/events/earliestEndDate/*', events.events);
