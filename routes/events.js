@@ -50,5 +50,5 @@ exports.events = function(req, res) {
         ]
     };
     res.contentType("application/json");
-    res.send(JSON.stringify(responseJSON),404);
+    res.send(JSON.stringify(responseJSON),200);
 }
