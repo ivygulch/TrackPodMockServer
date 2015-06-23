@@ -1,11 +1,13 @@
 var express = require('express');
 var app = express();
 var authentication = require('./routes/authentication')
+var events = require('./routes/events')
 var bodyParser = require('body-parser');
 
 app.use(bodyParser());
 
 app.post('/authenticate', authentication.authenticate);
+app.get('/events/earliestEndDate/*', events.events);
 
 app.get('/test', function(req,res) {
   res.send('This worked');
