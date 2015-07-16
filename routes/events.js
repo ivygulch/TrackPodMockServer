@@ -16,7 +16,6 @@
  externalKey: {string},
  code: {string},
  */
-
 exports.events = function(req, res) {
     var responseJSON = {
         success:true,
