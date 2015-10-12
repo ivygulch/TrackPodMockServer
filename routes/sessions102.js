@@ -39,7 +39,7 @@ exports.sessions102 = function(req, res) {
             sortOrder: 1,
             cancelled: false,
             defaultMinAttendanceTime: 12,
-            allowOverrides: true,
+            allowOverrides: false,
             scenarioID: 1,
             scenarioDesc: "scenario 1"
             },

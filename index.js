@@ -17,7 +17,9 @@ app.get('/events/101/products/earliestEndDate/*', sessions101.sessions101);
 app.get('/events/102/products/earliestEndDate/*', sessions102.sessions102);
 app.get('/events/103/products/earliestEndDate/*', sessions103.sessions103);
 app.get('/products/101/session_scans/individuals/*', users.users);
+app.get('/products/102/session_scans/individuals/*', users.users);
 app.post('/products/101/session_scans', scan.scan);
+app.post('/products/102/session_scans', scan.scan);
 app.get('/test', function(req,res) {
   res.send('This worked');
 });
