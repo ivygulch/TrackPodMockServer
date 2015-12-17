@@ -44,7 +44,7 @@ exports.events = function(req, res) {
                 code:"code103",
                 name:"name 103",
                 startsOn:"2015-06-28T09:00:00GMT",
-                endsOn:"2015-07-07T16:00:00GMT"
+                endsOn:"2015-08-07T16:00:00GMT"
             }
         ]
     };
